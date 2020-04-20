@@ -1,0 +1,38 @@
+/* The CSS in this file is for the landing page */
+
+main {
+  padding: 0;
+  height: 100%;
+  background-color: #333;
+}
+
+.topSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45%;
+  text-align: center;
+  background: #1A8FF7;
+  transform: skewY(-11deg);
+}
+
+.centerPiece {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: skewY(-11deg);
+  background-color: red;
+  text-align: center;
+  height: 10%;
+  /* z-index: 100; */
+}
+
+.bottomSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45%;
+  background: #F7821A;
+  text-align: center;
+  transform: skewY(-11deg);
+}
