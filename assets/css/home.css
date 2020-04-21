@@ -1,23 +1,18 @@
-/* The CSS in this file is for the landing page */
-
-* {
-  margin: 0;
-  padding: 0;
-}
+/* The CSS in this file will be used on the home page */
 
 main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('../images/mt_fugi.jpeg');
+  background-image: url('../../assets/images/roadHome.jpeg');
   height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.headDiv {
+.stagesDiv {
   text-transform: uppercase;
   text-align: center;
   color: white;
@@ -26,11 +21,6 @@ main {
   border-radius: 10px;
 }
 
-.link {
-  text-decoration: none;
-  color: white;
-}
-
-.link:hover {
-  color: #329AEF;
+.title {
+  border-bottom: 2px solid white;
 }

@@ -1,4 +1,10 @@
 /* The CSS in this file will be used throughout the project */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .fontColor {
   color: #333;
 }
