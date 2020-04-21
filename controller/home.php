@@ -10,7 +10,7 @@
 
   <div class='stagesDiv'>
     <h1 class='title'>My Journey<h1>
-    <p><a class='link' href='controller'>Early Years</a></p>
+    <p><a class='link' href="?action=early_years">Early Years</a></p>
     <p>Tech Talent South</p>
     <p>Gwinnett Technical College</p>
     <p>Current</p>
