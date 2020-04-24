@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+.center {
+  text-align: center;
+}
+
 .fontColor {
   color: #333;
 }
