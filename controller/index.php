@@ -23,6 +23,12 @@ switch ($action) {
   case 'tts_years':
     include('tts_years.php');
     break;
+  case 'GTC':
+    include('GTC.php');
+    break;
+  case 'current':
+    include('current.php');
+    break;
 
 
 }
