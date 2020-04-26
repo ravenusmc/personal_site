@@ -9,4 +9,5 @@
 
 <h1>Current</h1>
 
+<!-- Footer Area -->
 <?php include '../view/footer.php'; ?>
