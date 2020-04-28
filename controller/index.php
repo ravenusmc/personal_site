@@ -29,6 +29,9 @@ switch ($action) {
   case 'current':
     include('current.php');
     break;
+  case 'resume':
+    include('mike-cuddy-resume.php');
+    break;
 
 
 }
