@@ -1,0 +1,82 @@
+/* The CSS in this page will be for the GTC page */
+
+/*************************
+CSS for Header Area
+*************************/
+
+#top {
+  background-image: url("https://docs.google.com/uc?export=download&id=1EFf_YcT7TNpo9GzooZIISas13RL22yzk");
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100%;
+}
+
+.introDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.5);
+  padding: 15px;
+  color: white;
+}
+
+.paragraphDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.5);
+  padding: 15px;
+  color: white;
+}
+
+/*************************
+CSS for Courses Area
+*************************/
+
+.courses_area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.change_link:hover {
+  color: orange;
+}
+
+.fix_list_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.non_online_font_size_fix {
+  font-size: 20px;
+}
+
+#pic_area_one {
+  background-image: url("https://docs.google.com/uc?export=download&id=194gEC5eN5TtpXmHUsXciCKq-j16ZQQyT");
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#pic_area_two {
+  background-image: url("https://docs.google.com/uc?export=download&id=1yAD9bBJH67jvvEZmLllxzgF2HbwaZJwx");
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
