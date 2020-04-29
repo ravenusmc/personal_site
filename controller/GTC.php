@@ -46,6 +46,15 @@
       <li><a class='change_link' href="2351/index.html">CIST 2351 - PHP Programming 1</a></li><br>
       <li><a class='change_link' href="http://mcuddy12.info/wordpress">CIST 2510 - Web Technologies</a></li><br>
       <li><a class='change_link' href="2531/index.html">CIST 2531 - Web Graphics 2</a></li>
+      <li><a class='change_link' href="1510/index.html">CIST 1510 - Web Development 1</a></li><br>
+      <li><a class='change_link' href="1520/index.html">CIST 1520 - Scripting Technologies</a></li><br>
+      <li><a class='change_link' href="1530/index.html">CIST 1530 - Web Graphics 1</a></li>
+      <li class='non_online_font_size_fix'>CIST 1001 - Computer Concepts (no online work)</li>
+      <li class='non_online_font_size_fix'>CIST 1305 - Program Design and Development (no online work)</li>
+      <li class='non_online_font_size_fix'>CIST 1601 - Information Security Fundamentals (no online work)</li>
+      <li class='non_online_font_size_fix'>CIST 2742 - Beginning Python Programming (no online work)</li>
+      <li class='non_online_font_size_fix'>CIST 2361 - C++ Programming 1 (no online work)</li>
+      <li class='non_online_font_size_fix'>CIST 2740 - Intro to Game Development (no online work)</li>
     </ul>
   </div>
 </div>
