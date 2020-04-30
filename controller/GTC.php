@@ -37,28 +37,39 @@
 </div>
 <!-- End of Page header Area -->
 
-<!-- Current Course Area -->
-<div>
-  <h1 id='area_one' class='center'>GTC Courses</h1>
+<!-- Courses Area -->
+<div id='area_one'>
+  <h1 class='center'>GTC Courses</h1>
   <div class='courses_area'>
-    <ul>
-      <li><a class='change_link' href="#">CIST 1220 - Structured Query Language-SQL (no online work)</a></li><br>
-      <li><a class='change_link' href="2351/index.html">CIST 2351 - PHP Programming 1</a></li><br>
-      <li><a class='change_link' href="http://mcuddy12.info/wordpress">CIST 2510 - Web Technologies</a></li><br>
-      <li><a class='change_link' href="2531/index.html">CIST 2531 - Web Graphics 2</a></li>
-      <li><a class='change_link' href="1510/index.html">CIST 1510 - Web Development 1</a></li><br>
-      <li><a class='change_link' href="1520/index.html">CIST 1520 - Scripting Technologies</a></li><br>
-      <li><a class='change_link' href="1530/index.html">CIST 1530 - Web Graphics 1</a></li>
-      <li class='non_online_font_size_fix'>CIST 1001 - Computer Concepts (no online work)</li>
-      <li class='non_online_font_size_fix'>CIST 1305 - Program Design and Development (no online work)</li>
-      <li class='non_online_font_size_fix'>CIST 1601 - Information Security Fundamentals (no online work)</li>
-      <li class='non_online_font_size_fix'>CIST 2742 - Beginning Python Programming (no online work)</li>
-      <li class='non_online_font_size_fix'>CIST 2361 - C++ Programming 1 (no online work)</li>
-      <li class='non_online_font_size_fix'>CIST 2740 - Intro to Game Development (no online work)</li>
-    </ul>
+
+    <div class='onlineWorkDiv'>
+      <h2>Online Work</h2>
+        <ul>
+          <li><a class='change_link' href="2351/index.html">CIST 2351 - PHP Programming 1</a></li>
+          <li><a class='change_link' href="http://mcuddy12.info/wordpress">CIST 2510 - Web Technologies</a></li>
+          <li><a class='change_link' href="2531/index.html">CIST 2531 - Web Graphics 2</a></li>
+          <li><a class='change_link' href="1510/index.html">CIST 1510 - Web Development 1</a></li>
+          <li><a class='change_link' href="1520/index.html">CIST 1520 - Scripting Technologies</a></li>
+          <li><a class='change_link' href="1530/index.html">CIST 1530 - Web Graphics 1</a></li>
+        </ul>
+    </div>
+
+    <div class='nonOnlineWorkDiv'>
+      <h2>Non-Online Work</h2>
+      <ul>
+        <li class='non_online_font_size_fix'>CIST 1220 - Structured Query Language-SQ</a></li>
+        <li class='non_online_font_size_fix'>CIST 1001 - Computer Concepts</li>
+        <li class='non_online_font_size_fix'>CIST 1305 - Program Design and Development</li>
+        <li class='non_online_font_size_fix'>CIST 1601 - Information Security Fundamentals</li>
+        <li class='non_online_font_size_fix'>CIST 2742 - Beginning Python Programming</li>
+        <li class='non_online_font_size_fix'>CIST 2361 - C++ Programming 1</li>
+        <li class='non_online_font_size_fix'>CIST 2740 - Intro to Game Development</li>
+      </ul>
+    </div>
+
   </div>
 </div>
-<!-- End of Current Course Area -->
+<!-- End of Courses Area -->
 
 <!-- Pic Area -->
 <div id='pic_area_one'>

@@ -76,7 +76,7 @@
 
       <div class='education_container'>
         <h3>Gwinnett Technical College</h3>
-        <p>Associates Degree in Web Development-in progress</p>
+        <p>Associates Degree in Web Development</p>
       </div>
 
       <div class='education_container'>
@@ -107,7 +107,9 @@
       <div class='education_container'>
         <h3>Back End Skills</h3>
         <p>Python</p>
-        <p>Javascript</p>
+        <p>Node JS</p>
+        <p>PHP</p>
+        <p>MySQL</p>
       </div>
 
       <hr>

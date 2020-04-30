@@ -43,24 +43,43 @@ CSS for Header Area
 CSS for Courses Area
 *************************/
 
+#area_one {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .courses_area {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.onlineWorkDiv {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.nonOnlineWorkDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.change_link {
+  color: #333;
+  text-decoration: none;
+}
+
 .change_link:hover {
-  color: orange;
+  color: #329AEF;
+  text-decoration: none;
 }
 
 .fix_list_info {
   display: flex;
   flex-direction: column;
-}
-
-.non_online_font_size_fix {
-  font-size: 20px;
 }
 
 #pic_area_one {
