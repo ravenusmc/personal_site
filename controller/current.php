@@ -29,30 +29,19 @@
         <img alt='image of Mike Cuddy' src="../assets/images/Cuddy.JPG">
       </div>
       <div class='about_two'>
-        <h3 class='center about_heading'>Who I am</h3>
+        <h3 class='center about_heading'>The Current Me</h3>
         <p class='about_paragraph'>
-          In a past life, I was an intelligence officer and before that an officer
-           in the Marine Corps. I spent most of the 2000's, after college, on
-           deployments to the Middle East. However, before all that, in the late
-           90's, when I was in high school, I loved technology. I was part of
-           the U.S. FIRST Robotics team. My friends and I were known as the
-           nerds of our high school class. I would spend my Friday evenings not
-           partying or hanging out at a friends house. Instead, I checked out
-           documentaries on physics from David Goodstein who teaches at CalTech.
-           In my Senior of high school I started to do some programming and made
-           a basic text based adventure. The screen changed color at certain times
-           and I even had the computer beeping at specific moments! However, when
-           I went to the University of California at Davis, I became a History and
-           Political Science double major. I figured that I would make a career in
-           the Marine Corps and a History degree would serve me well. In late 2013
-           I was watching some videos on Khan Academy about history which I loved
-           to do. On this particular day, the site mentioned that they had some
-           computer programming videos. I decided to check them out and for some
-           reason, I clicked on one about Python. I slowly started to learn about
-           Python and then in the spring of 2015 took a coding boot camp at
-           <a class='tech_talent_anchor' href="https://techtalentsouth.com/">
-          Tech Talent South</a>. From there, my knowledge and passion for the art
-          has exploded.
+          On this here page, you see a lot of my projects that I've built over the
+          years on Github. Sometime, around three or four years ago, I got the idea
+          that after every project I built, I'd make a YouTube Video of it and
+          put the link to that video in the readme page on github. Here, I've
+          collected a lot of those links and brought them into this page. I truly
+          believe that as you look at the projects, the most recent are first, that you'll
+          see a lot of growth over time. You'll also see that a large portion of
+          my projects are focused on data projects. Finally, at the bottom of this page,
+          I've included all my Treehouse Badges that I've earned. A long time ago,
+          that was one of the first API's that I worked with in a real project!
+          I hope you enjoy seeing my work!
         </p>
       </div>
     </section>
@@ -62,7 +51,7 @@
 
     <!-- Current Work Section Code -->
     <section id='current_work_section'>
-      <h1 id='current_work' class='current_work_title center'>Recent Work</h1>
+      <h1 id='current_work' class='current_work_title center'>Mike Cuddy's Projects</h1>
 
       <div class='current_top_container'>
 
