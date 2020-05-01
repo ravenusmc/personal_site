@@ -1,0 +1,270 @@
+/* The CSS in this file will deal with the Currrent work page */
+/* CSS used through out page */
+
+#wrapper {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.center {
+  text-align: center;
+  color: #333;
+}
+
+/*****************
+CSS For Header
+******************/
+
+.title_banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: cente;
+  height: 600px;
+  background-image: url(https://source.unsplash.com/EdGeNlFGqmo);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.title_banner_div {
+  background: hsla(0, 0%, 100%, .7);
+  overflow: hidden;
+  margin-left: 30%;
+  margin-right: 30%;
+  z-index: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/*****************
+CSS for about_me section
+******************/
+
+.about_section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #f8f8f8;
+}
+
+.about_one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  filter: sepia();
+}
+
+.about_one img {
+  filter: sepia();
+}
+
+.about_two {
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_heading {
+  font-size: 2em;
+}
+
+.about_paragraph {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.tech_talent_anchor {
+  text-decoration: none;
+}
+
+
+/*****************
+CSS for Early Projects Section
+******************/
+
+#early_projects_section {
+  padding-top: 30px;
+}
+
+.project_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.early_area {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.early_heading_para_area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.early_para {
+  margin-top: -10px;
+  margin-left: 2%;
+}
+
+/*****************
+CSS for Current Work Section
+******************/
+
+#current_work_section {
+  background-color: #f8f8f8;
+}
+
+.current_work_title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.current_top_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.current_sub_section {
+  display: flex;
+  flex-direction: row;
+}
+
+.sub_section_one {
+  width: 350px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 8px;
+}
+
+/*****************
+CSS for Badges Section
+******************/
+
+.treehouse_badges {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.smart_phone_notice {
+  display: none;
+}
+
+#badge_main_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.badge_area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+.image_area {
+  height: 75px;
+  width: 100px;
+}
+
+/*****************
+Media Queries
+******************/
+@media only all and (max-width: 900px){
+
+  #wrapper {
+    width: auto;
+    min-width: 0;
+    margin: 0;
+  }
+
+  .left_element {
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+
+  .right_elements {
+    float: none;
+  }
+
+  .title_banner_div {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .about_section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+  }
+
+  /* CSS Media For Early Project Area */
+
+  img {
+    height: 175px;
+  }
+
+  .early_area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .early_heading_para_area {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  /* CSS Media for Current Work Section */
+
+  .current_sub_section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sub_section_one {
+    margin-bottom: 1px;
+  }
+
+  /* CSS for Treehouse Badge Section */
+  #badge_main_container {
+    display: none;
+  }
+
+  .smart_phone_notice {
+    display: inline;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+}
