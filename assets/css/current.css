@@ -164,9 +164,18 @@ CSS for Current Work Section
 CSS for Badges Section
 ******************/
 
+.noticeArea {
+  display: none;
+}
+
 .treehouse_badges {
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.mobileNotice {
+  display: none;
+  border: 2px solid red;
 }
 
 .smart_phone_notice {
@@ -230,7 +239,8 @@ Media Queries
   /* CSS Media For Early Project Area */
 
   img {
-    height: 175px;
+    height: 400px;
+    margin-bottom: 40px;
   }
 
   .early_area {
@@ -257,14 +267,25 @@ Media Queries
   }
 
   /* CSS for Treehouse Badge Section */
-  #badge_main_container {
+  .treehouse_badges {
     display: none;
   }
 
+  .noticeArea {
+    display: block;
+  }
+
+  .treehouse_badges {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+
   .smart_phone_notice {
-    display: inline;
+    /* display: inline; */
     text-align: center;
     margin-bottom: 100px;
+    border: 2px solid red;
   }
 
 }

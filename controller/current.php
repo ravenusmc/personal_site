@@ -160,9 +160,12 @@
 
     <hr>
 
-    <section id='treehouse' class='treehouse_badges'>
+    <section class='noticeArea'>
+      <h5 class=' center'>Badges do not display on a mobile device</h5>
+    </section>
+
+    <section class='treehouse_badges'>
       <h1 class='center'>Treehouse Badges</h1>
-      <h5 class='smart_phone_notice'>Please note badges do not display on a smart phone</h5>
       <div id='badge_main_container'>
       </div>
     </section>
