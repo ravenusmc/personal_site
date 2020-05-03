@@ -1,8 +1,7 @@
 <?php
 
   class Projects {
-
-    // private $id, $title, $rating, $genre, $year;
+    
     private $id, $title, $githubURL, $videoLink;
 
     public function __construct() {
@@ -36,7 +35,7 @@
         $this->githubURL = $value;
     }
 
-        public function getVideoLink() {
+    public function getVideoLink() {
         return $this->videoLink;
     }
 

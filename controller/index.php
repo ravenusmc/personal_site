@@ -3,10 +3,13 @@
 //Pulling in the databases
 require('../model/database.php');
 require('../model/projects.php');
-// require('../model/games_db.php');
+require('../model/projects_db.php');
 
 //Creating the object to deal with the database.
-$projects = new projects();
+$projectsDB = new projects();
+
+//Searching for the movie in the database by title
+// $projects = $projectsDB->searchForProjects();
 
 //Setting a default action
 $action = filter_input(INPUT_POST, 'action');
