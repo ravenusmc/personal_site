@@ -28,34 +28,22 @@
         $this->title = $value;
     }
 
-    public function getRating() {
-        return $this->rating;
+    public function getGitHubURL() {
+        return $this->githubURL;
     }
 
-    public function setRating($value) {
-        $this->rating = $value;
+    public function setGitHubURL($value) {
+        $this->githubURL = $value;
     }
 
-        public function getGenre() {
-        return $this->genre;
+        public function getVideoLink() {
+        return $this->videoLink;
     }
 
-    public function setGenre($value) {
-        $this->genre = $value;
-    }
-
-
-    public function getYear() {
-        return $this->year;
-    }
-
-    public function setYear($value) {
-        $this->year = $value;
+    public function setVideoLink($value) {
+        $this->videoLink = $value;
     }
 
   }
-
-
-
 
 ?>

@@ -1,5 +1,13 @@
 <?php
 
+//Pulling in the databases
+require('../model/database.php');
+require('../model/projects.php');
+// require('../model/games_db.php');
+
+//Creating the object to deal with the database.
+$projects = new projects();
+
 //Setting a default action
 $action = filter_input(INPUT_POST, 'action');
 if ($action == NULL) {
