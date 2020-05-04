@@ -57,15 +57,18 @@
 
         <!-- Row of projects third row -->
           <div class='current_sub_section'>
+
             <div class='sub_section_one'>
+              <?php foreach ($projects as $project): ?>
                 <div>
-                  <iframe width="250" height="141" src="https://www.youtube.com/embed/3csvQETVKqA" frameborder="0" allowfullscreen></iframe>
+                  <iframe width="250" height="141" src="<?php echo $project->getVideoLink(); ?>" frameborder="0" allowfullscreen></iframe>
                 </div>
 
                 <div>
-                  <h3>News App</h3>
+                    <h3><?php echo $project->getTitle(); ?></h3>
+                    <p>Github link: <?php echo $project->getGitHubURL(); ?></p>
+                  <?php endforeach; ?>
                 </div>
-
             </div>
 
             <div class='sub_section_one'>

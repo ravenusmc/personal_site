@@ -16,9 +16,8 @@ CREATE TABLE projects (
 -- First Entry
 -- video_games
 -- https://github.com/ravenusmc/video_games
--- <iframe width="560" height="315" src="https://www.youtube.com/embed/bIpUajQqlSU"
--- frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+-- https://www.youtube.com/embed/bIpUajQqlSU
 
 
 INSERT INTO projects (title, githubURL, videoLink) VALUES
-("video_games", "https://github.com/ravenusmc/video_games", "<iframe width='560' height='315' src='https://www.youtube.com/embed/bIpUajQqlSU' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>" );
+("video_games", "https://github.com/ravenusmc/video_games", "https://www.youtube.com/embed/bIpUajQqlSU");

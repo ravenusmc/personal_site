@@ -5,12 +5,6 @@ require('../model/database.php');
 require('../model/projects.php');
 require('../model/projects_db.php');
 
-//Creating the object to deal with the database.
-$projectsDB = new projects();
-
-//Searching for the movie in the database by title
-// $projects = $projectsDB->searchForProjects();
-
 //Setting a default action
 $action = filter_input(INPUT_POST, 'action');
 if ($action == NULL) {
@@ -29,6 +23,9 @@ switch ($action) {
     break;
   // This action will bring you to the Early years page
   case 'early_years':
+    // $projectsObject = new ProjectsDB();
+    // $projects = $projectsObject->searchForProjects();
+    // include('model.php');
     include('early_years.php');
     break;
   case 'tts_years':
@@ -38,6 +35,10 @@ switch ($action) {
     include('GTC.php');
     break;
   case 'current':
+    //Creating the object to deal with the database.
+    $projectsObject = new ProjectsDB();
+    //Searching in the database for my projects
+    $projects = $projectsObject->searchForProjects();
     include('current.php');
     break;
   case 'resume':
