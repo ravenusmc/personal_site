@@ -50,121 +50,29 @@
     <hr>
 
     <!-- Current Work Section Code -->
-    <section id='current_work_section'>
-      <h1 id='current_work' class='current_work_title center'>Mike Cuddy's Projects</h1>
+    <div class='currentWorkSection'>
 
-      <div class='current_top_container'>
+      <?php foreach ($projects as $project): ?>
+      <div class='sub_section_one'>
 
-        <!-- Row of projects third row -->
-          <div class='current_sub_section'>
-
-            <div class='sub_section_one'>
-              <?php foreach ($projects as $project): ?>
-                <div>
-                  <iframe width="250" height="141" src="<?php echo $project->getVideoLink(); ?>" frameborder="0" allowfullscreen></iframe>
-                </div>
-
-                <div>
-                    <h3><?php echo $project->getTitle(); ?></h3>
-                    <p>Github link: <?php echo $project->getGitHubURL(); ?></p>
-                  <?php endforeach; ?>
-                </div>
-            </div>
-
-            <div class='sub_section_one'>
-                <div>
-                  <iframe width="250" height="141" src="https://www.youtube.com/embed/3prEmoyck0Y" frameborder="0" allowfullscreen></iframe>
-                </div>
-                <div>
-                  <h3>Murder Study</h3>
-                </div>
-            </div>
-
-            <div class='sub_section_one'>
-                <div>
-                  <iframe width="250" height="141" src="https://www.youtube.com/embed/vzkZq-EPM10" frameborder="0" allowfullscreen></iframe>
-                </div>
-
-                <div>
-                  <h3>UFO Study</h3>
-                </div>
-
-            </div>
+          <div>
+            <iframe width="250" height="141" src="<?php echo $project->getVideoLink(); ?>" frameborder="0" allowfullscreen></iframe>
           </div>
-          <!-- End of Third Row -->
 
-          <div class='current_sub_section'>
-            <div class='sub_section_one'>
-                <div>
-                  <iframe width="250" height="141" src="https://www.youtube.com/embed/J5ucQ1v2hxk" frameborder="0" allowfullscreen></iframe>
-                </div>
-
-                <div>
-                  <h3 >War Data</h3>
-                </div>
-
-            </div>
-            <div class='sub_section_one'>
-                <div>
-                  <iframe width="250" height="141" src="https://www.youtube.com/embed/Wp49tI6zCXc" frameborder="0" allowfullscreen></iframe>
-                </div>
-
-                <div>
-                  <h3>Titanic Project</h3>
-                </div>
-
-            </div>
-            <div class='sub_section_one'>
-                <div>
-                  <iframe width="250" height="141" src="https://www.youtube.com/embed/Z9piHJlSGtE" frameborder="0" allowfullscreen></iframe>
-                </div>
-
-                <div>
-                  <h3>Inventory Project</h3>
-                </div>
-
-            </div>
+          <div>
+              <h3 class='center'><?php echo $project->getTitle(); ?></h3>
+              <a href="<?php echo $project->getGitHubURL(); ?>" class='center'>Project on Github</a>
           </div>
-          <div class='current_sub_section'>
-            <div class='sub_section_one'>
-                <div>
-                  <iframe width="250" height="141" src="https://www.youtube.com/embed/d7-XMuwyPXk" frameborder="0" allowfullscreen></iframe>
-                </div>
-
-                <div>
-                  <h3>Angular 4 Space Project</h3>
-                </div>
-
-            </div>
-            <div class='sub_section_one'>
-                <div>
-                  <iframe width="250" height="141" src="https://www.youtube.com/embed/IJjq8jpU2js" frameborder="0" allowfullscreen></iframe>
-                </div>
-
-                <div>
-                  <h3>World Information Data Project</h3>
-                </div>
-
-            </div>
-            <div class='sub_section_one'>
-                <div>
-                  <iframe width="250" height="141" src="https://www.youtube.com/embed/LhmisDsbPXY" frameborder="0" allowfullscreen></iframe>
-                </div>
-
-                <div>
-                  <h3>Terrorism Project With Flask</h3>
-                </div>
-
-            </div>
-          </div>
-        </div>
       </div>
-    </section>
+      <?php endforeach; ?>
+
+    </div>
+    <!-- End of Current Work Section Code -->
 
     <hr>
 
     <section class='noticeArea'>
-      <h5 class=' center'>Badges do not display on a mobile device</h5>
+      <h5 class='center'>Badges do not display on a mobile device</h5>
     </section>
 
     <section class='treehouse_badges'>
