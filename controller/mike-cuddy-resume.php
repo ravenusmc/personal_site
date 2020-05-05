@@ -11,7 +11,7 @@
   <main class='resume_page_main'>
 
     <section class='resume_title'>
-      <h1>Mike Cuddy</h1>
+      <h1 class='nameTitle'>Mike Cuddy</h1>
       <h5><a href="https://www.linkedin.com/in/mcuddy1/">Linkedin.com/in/mcuddy1</a> • <a href="https://github.com/ravenusmc">github.com/ravenusmc</a></h5>
     </section>
 
@@ -101,7 +101,7 @@
         <h3>Front End Skills</h3>
         <p>HTML 5</p>
         <p>CSS3</p>
-        <p>Javascript</p>
+        <p>Javascript/Vue.JS/Vuex</p>
       </div>
 
       <div class='education_container'>
@@ -114,6 +114,11 @@
 
       <hr>
       <h1>Awards</h1>
+
+      <div class='education_container'>
+        <h3>Skills USA-National Competition</h3>
+        <p>2nd Place | 2018</p>
+      </div>
 
       <div class='education_container'>
         <h3>Skills USA-GA Competition</h3>
@@ -131,7 +136,7 @@
       </div>
 
       <div class='education_container'>
-        <h3>Hack the Planet Hackathon-General Assembly</h3>
+        <h3 class='hackFix'>Hack the Planet Hackathon-General Assembly</h3>
         <p>3rd Place | 2016</p>
       </div>
 

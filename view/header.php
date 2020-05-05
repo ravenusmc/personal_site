@@ -38,6 +38,8 @@
           <a class="dropdown-item" href="?action=early_years">Early Years / Starting out</a>
           <a class='dropdown-item' href="?action=GTC">Getting Serious</a>
           <a class="dropdown-item" href="?action=current">Current</a>
+          <a class="dropdown-item" href="https://www.linkedin.com/in/mcuddy1/">Linkedin</a>
+          <a class="dropdown-item" href="https://github.com/ravenusmc">Github</a>
         </div>
       </li>
     </ul>
