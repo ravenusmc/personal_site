@@ -18,7 +18,7 @@
 
     <div class='paragraphDiv'>
       <h2>Purpose</h1>
-      <p>
+      <p class='paragraph'>
         The purpose of this page is to show the work that I did at Gwinnett Technical
         College (GTC). Some of it may be bad - but it was when I was getting serious. I learned
         quite a bit at GTC, attended numerous hackathons in Atlanta during this time, came in 4th and
@@ -28,9 +28,6 @@
         originally a page that I used at GTC for my homepage. I heavily modified it
         to make this page.
       </p>
-      <!-- <h2 class='center'><a href="#area_one">Current Courses</a></h2>
-      <h2 class='center'><a href="#area_two">Past Courses</a></h2>
-      <h2 class='center'><a href='photoshop_personal_work/pages/index.html'>Photoshop Portfolio</a></h2> -->
     </div>
 
   </header>
@@ -45,19 +42,19 @@
     <div class='onlineWorkDiv'>
       <h2>Online Work</h2>
         <ul>
-          <li><a class='change_link' href="2351/index.html">CIST 2351 - PHP Programming 1</a></li>
+          <li><a class='change_link' href="../gtcCourses/2351/index.html">CIST 2351 - PHP Programming 1/2</a></li>
           <li><a class='change_link' href="http://mcuddy12.info/wordpress">CIST 2510 - Web Technologies</a></li>
-          <li><a class='change_link' href="2531/index.html">CIST 2531 - Web Graphics 2</a></li>
-          <li><a class='change_link' href="1510/index.html">CIST 1510 - Web Development 1</a></li>
-          <li><a class='change_link' href="1520/index.html">CIST 1520 - Scripting Technologies</a></li>
-          <li><a class='change_link' href="1530/index.html">CIST 1530 - Web Graphics 1</a></li>
+          <li><a class='change_link' href="../gtcCourses/2531/index.html">CIST 2531 - Web Graphics 2</a></li>
+          <li><a class='change_link' href="../gtcCourses/1510/index.html">CIST 1510 - Web Development 1</a></li>
+          <li><a class='change_link' href="../gtcCourses/1520/index.html">CIST 1520 - Scripting Technologies</a></li>
+          <li><a class='change_link' href="../gtcCourses/1530/index.html">CIST 1530 - Web Graphics 1</a></li>
         </ul>
     </div>
 
     <div class='nonOnlineWorkDiv'>
       <h2>Non-Online Work</h2>
       <ul>
-        <li class='non_online_font_size_fix'>CIST 1220 - Structured Query Language-SQ</a></li>
+        <li class='non_online_font_size_fix'>CIST 1220 - Structured Query Language-SQL</a></li>
         <li class='non_online_font_size_fix'>CIST 1001 - Computer Concepts</li>
         <li class='non_online_font_size_fix'>CIST 1305 - Program Design and Development</li>
         <li class='non_online_font_size_fix'>CIST 1601 - Information Security Fundamentals</li>

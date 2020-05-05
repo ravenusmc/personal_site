@@ -99,3 +99,25 @@ CSS for Courses Area
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+/*************************
+Media Queries
+*************************/
+@media only all and (max-width: 900px) {
+
+  .header-container {
+    grid-template-columns: 1fr;
+    min-height: 100%;
+  }
+
+  .paragraph {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .courses_area {
+    grid-template-columns: 1fr;
+  }
+
+
+}
