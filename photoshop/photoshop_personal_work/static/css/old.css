@@ -1,0 +1,13 @@
+/****************************
+All of the CSS in this file will be for the old.html page
+****************************/
+
+.photo_fix {
+  height: 450px;
+  width: 400px;
+}
+
+.link_fix {
+  text-decoration: none;
+  color: white;
+}

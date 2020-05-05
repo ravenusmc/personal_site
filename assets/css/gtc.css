@@ -77,11 +77,6 @@ CSS for Courses Area
   text-decoration: none;
 }
 
-.fix_list_info {
-  display: flex;
-  flex-direction: column;
-}
-
 #pic_area_one {
   background-image: url("https://docs.google.com/uc?export=download&id=194gEC5eN5TtpXmHUsXciCKq-j16ZQQyT");
   height: 500px;
@@ -101,6 +96,31 @@ CSS for Courses Area
 }
 
 /*************************
+CSS for Photoshop Area
+*************************/
+
+.photoshopArea {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.photoShopDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3em;
+  justify-items: center;
+}
+
+.photoShopParagraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*************************
 Media Queries
 *************************/
 @media only all and (max-width: 900px) {
@@ -116,6 +136,10 @@ Media Queries
   }
 
   .courses_area {
+    grid-template-columns: 1fr;
+  }
+
+  .photoShopDiv {
     grid-template-columns: 1fr;
   }
 
