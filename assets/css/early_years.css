@@ -20,3 +20,20 @@ CSS For Main Area
   margin-left: 5%;
   margin-right: 5%;
 }
+
+.marioImage {
+  height: 500px;
+}
+
+/*****************
+Media Query Area
+******************/
+
+@media only all and (max-width: 1200px) {
+
+  #firstSection {
+    grid-template-columns: 1fr;
+  }
+
+
+}
