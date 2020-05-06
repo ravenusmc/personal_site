@@ -1,1 +1,22 @@
 /* The CSS in this file will deal with the Early years page */
+
+/*****************
+CSS For Header
+******************/
+
+.headerArea {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+/*****************
+CSS For Main Area
+******************/
+
+#firstSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3em;
+  margin-left: 5%;
+  margin-right: 5%;
+}
