@@ -50,6 +50,37 @@
 
   </section>
 
+  <section id='secondSection'>
+
+    <div>
+      <img class='marioImage' src="../assets/images/weather.jpg" alt="Weather Image">
+    </div>
+
+    <div>
+      <p>
+        Towards the end of my Freshman year in high school I started a project
+        that was supposed to be for my science honors class. This project was
+        to record the weather every day - at both the morning and the night.
+        At the end of the project I would graph all the data out and present it.
+        I did all that but when my Freshman year was over I continued to collect
+        data all summer. I continued to collect it, almost every day, until around
+        late winter/early spring of my Senior year. I then entered all my data into
+        excel, made graphs from the data but also used some sine/cosine functions
+        to build a basic model of the data. This model would give me a general idea
+        of what the temperature would be like over on any particular day.
+      </p>
+    </div>
+
+  </section>
+
+  <section>
+    khan Academy and Self Teaching
+  </section>
+
+  <section>
+    Tech Talent South and LAMP Camp
+  </section>
+
 </main>
 <!-- End of Main Area -->
 

@@ -13,16 +13,28 @@ CSS For Header
 CSS For Main Area
 ******************/
 
+/* first Section */
 #firstSection {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 3em;
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 20px;
 }
 
 .marioImage {
   height: 500px;
+}
+
+/* Second Section */
+#secondSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3em;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 20px;
 }
 
 /*****************
@@ -33,7 +45,26 @@ Media Query Area
 
   #firstSection {
     grid-template-columns: 1fr;
+    justify-items: center;
   }
 
+  #secondSection {
+    margin-top: 50px;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+}
+
+@media only all and (max-width: 900px) {
+
+  #firstSection {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .marioImage {
+    height: 350px;
+  }
 
 }
