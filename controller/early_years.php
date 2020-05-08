@@ -73,12 +73,26 @@
 
   </section>
 
-  <section>
-    khan Academy and Self Teaching
+  <section id='thirdSection'>
+
+    <div>
+    </div>
+
+    <div>
+      Khan Academy 
+    </div>
+
   </section>
 
-  <section>
-    Tech Talent South and LAMP Camp
+  <section id='fourthSection'>
+
+    <div>
+    </div>
+
+    <div>
+      Tech Talent South and LAMP Camp
+    </div>
+
   </section>
 
 </main>
