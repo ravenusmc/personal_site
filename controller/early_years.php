@@ -50,6 +50,8 @@
 
   </section>
 
+  <hr>
+
   <section id='secondSection'>
 
     <div>
@@ -67,19 +69,43 @@
         late winter/early spring of my Senior year. I then entered all my data into
         excel, made graphs from the data but also used some sine/cosine functions
         to build a basic model of the data. This model would give me a general idea
-        of what the temperature would be like over on any particular day.
+        of what the temperature would be like over on any particular day. This was
+        really my first journey in collecting / examing a "fairly" large amount of
+        data. I found that I loved looking at it and learrning about the weather.
+        I loved how the graphs could show there wave like structure - in the summer
+        the wave would be high and then in the fall it would drop down. If
+        I zoomed in on that wave, you'd see that the temperature would fluctuate
+        from day to day. It was not until years later, when I was in Iraq, that
+        I started to really get interested in looking at data again.
       </p>
     </div>
 
   </section>
 
+  <hr>
+
   <section id='thirdSection'>
 
     <div>
+      <p>
+        One day, in the late fall / early winter of 2013 I came home from work
+        and was bored. I was playing around on my computer and decided that I'd
+        watch a Khan Academy video on a particular history topic. This was something
+        that I did from time to time - I love history - I am a history major! But
+        on this particular day, something drew me to the computer science section
+        the site. I clicked on one video, that was on Python, and started to watch it.
+        I told myself that I can do that - I had in High School. So, I installed
+        Python and started to code along following the video. This was the start of
+        the reawakening. Slowly, over the following few months, I'd get books on
+        Python and started to code. I barely made any progress though. I wanted to
+        build something - but wasn't sure what. It would still be another 18 months
+        before the sun started to rise and I'd start to make a life long dream
+        come true...
+      </p>
     </div>
 
     <div>
-      Khan Academy 
+      <img class='sunImage' src="../assets/images/sun_rising.jpeg" alt="Sun Rising Image">
     </div>
 
   </section>
