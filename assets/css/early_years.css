@@ -26,7 +26,7 @@ CSS For Main Area
   height: 500px;
 }
 
-#secondSection, #thirdSection {
+#secondSection, #thirdSection, #fourthSection {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 3em;
@@ -36,6 +36,10 @@ CSS For Main Area
 }
 
 .sunImage {
+  height: 400px;
+}
+
+.codingImage {
   height: 400px;
 }
 
@@ -57,13 +61,17 @@ Media Query Area
     justify-items: center;
   }
 
-  #thirdSection {
+  #thirdSection, #fourthSection {
     grid-template-columns: 1fr;
     justify-items: center;
   }
 
   .sunImage {
     height:400px;
+  }
+
+  .codingImage {
+    height: 500px;
   }
 
 }
@@ -81,6 +89,10 @@ Media Query Area
 
   .sunImage {
     height:250px;
+  }
+
+  .codingImage {
+    height: 300px;
   }
 
 }

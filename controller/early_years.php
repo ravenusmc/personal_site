@@ -110,13 +110,24 @@
 
   </section>
 
+  <hr>
+
   <section id='fourthSection'>
 
     <div>
+      <img class='codingImage' src="../assets/images/programing.jpg" alt="programming picture">
     </div>
 
     <div>
-      Tech Talent South and LAMP Camp
+      <p>
+        In the spring of 2015 I realized that if I wanted to actually get into
+        coding I would need something to help push me. I decided to attend the
+        coding boot camp Tech Talent South and went through their programming. There
+        I learned HTML, CSS, Ruby and Ruby on Rails. I learned enough to really start
+        motivating myself to get serious about programming. In the Fall of 2015 I
+        attended a 3 month long "internship" at a place called LAMP Camp. Here
+        I focused on PHP and met a lot of good people.
+      </p>
     </div>
 
   </section>
