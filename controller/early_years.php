@@ -126,7 +126,12 @@
         I learned HTML, CSS, Ruby and Ruby on Rails. I learned enough to really start
         motivating myself to get serious about programming. In the Fall of 2015 I
         attended a 3 month long "internship" at a place called LAMP Camp. Here
-        I focused on PHP and met a lot of good people.
+        I focused on PHP and met a lot of good people. Towards the end of LAMP Camp
+        I decided to head to Gwinnett Technical College (GTC) outside of Atlana, GA - it was
+        close to where I lived at the time. It was at GTC where I would really get
+        100% serious about becoming a developer. My life became devoted to writing
+        code - in the end it would pay off with coming in 2nd place in the National
+        web development / design contest through Skills USA!
       </p>
     </div>
 
