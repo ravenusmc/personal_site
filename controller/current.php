@@ -13,9 +13,9 @@
   <!-- Header Code -->
   <header class='title_banner'>
     <div class='title_banner_div'>
-      <h1>Hi! I'm Mike Cuddy</h1>
+      <h1 class='font'>Hi! I'm Mike Cuddy</h1>
       <hr>
-      <h3>Full Stack Web Artisan / Data Lover</h3>
+      <h3 class='font'>Full Stack Web Artisan / Data Lover</h3>
     </div>
   </header>
 
@@ -29,9 +29,9 @@
         <img alt='image of Mike Cuddy' src="../assets/images/Cuddy.JPG">
       </div>
       <div class='about_two'>
-        <h3 class='center about_heading'>The Current Me</h3>
-        <p class='about_paragraph'>
-          On this here page, you see a lot of my projects that I've built over the
+        <h3 class='center about_heading font'>The Current Me</h3>
+        <p class='about_paragraph font'>
+          Here you'll see a lot of my projects that I've built over the
           years on Github. Sometime, around three or four years ago, I got the idea
           that after every project I built, I'd make a YouTube Video of it and
           put the link to that video in the readme page on github. Here, I've
@@ -60,8 +60,8 @@
           </div>
 
           <div>
-              <h3 class='center'><?php echo $project->getTitle(); ?></h3>
-              <a href="<?php echo $project->getGitHubURL(); ?>" class='center'>Project on Github</a>
+              <h3 class='center font'><?php echo $project->getTitle(); ?></h3>
+              <a href="<?php echo $project->getGitHubURL(); ?>" class='center font'>Project on Github</a>
           </div>
       </div>
       <?php endforeach; ?>
@@ -72,11 +72,11 @@
     <hr>
 
     <section class='noticeArea'>
-      <h5 class='center'>Badges do not display on a mobile device</h5>
+      <h5 class='center font'>Badges do not display on a mobile device</h5>
     </section>
 
     <section class='treehouse_badges'>
-      <h1 class='center'>Treehouse Badges</h1>
+      <h1 class='center font'>Treehouse Badges</h1>
       <div id='badge_main_container'>
       </div>
     </section>

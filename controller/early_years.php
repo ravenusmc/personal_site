@@ -9,7 +9,7 @@
 <?php include '../view/header.php'; ?>
 
 <div class='headerArea'>
-  <h1 class='center'>The Early Years</h1>
+  <h1 class='center font'>The Early Years</h1>
 </div>
 
 <!-- Main Area -->
@@ -18,7 +18,7 @@
   <section id='firstSection'>
 
     <div>
-      <p>
+      <p class='font'>
         My first experience with programing, where I was drawn in, may have been
         playing Super Mario Bros, on the NES, when I was in first grade. As I moved
         Mario slowly across the screen in world 1-1, my mind was transported to
@@ -59,7 +59,7 @@
     </div>
 
     <div>
-      <p>
+      <p class='font'>
         Towards the end of my Freshman year in high school I started a project
         that was supposed to be for my science honors class. This project was
         to record the weather every day - at both the morning and the night.
@@ -87,7 +87,7 @@
   <section id='thirdSection'>
 
     <div>
-      <p>
+      <p class='font'>
         One day, in the late fall / early winter of 2013 I came home from work
         and was bored. I was playing around on my computer and decided that I'd
         watch a Khan Academy video on a particular history topic. This was something
@@ -119,7 +119,7 @@
     </div>
 
     <div>
-      <p>
+      <p class='font'>
         In the spring of 2015 I realized that if I wanted to actually get into
         coding I would need something to help push me. I decided to attend the
         coding boot camp Tech Talent South and went through their programming. There

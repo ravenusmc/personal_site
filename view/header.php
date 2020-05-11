@@ -13,6 +13,8 @@
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <!-- CSS Style Sheets -->
   <link rel="stylesheet" type="text/css" href="../assets/css/generic.css">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 
 <!-- Bootstrap Navbar -->
@@ -26,21 +28,21 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="?action=home_page">Home<span class="sr-only">(current)</span></a>
+        <a class="nav-link font" href="?action=home_page">Home<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="?action=resume">Resume</a>
+        <a class="nav-link font" href="?action=resume">Resume</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle font" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Pages
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="?action=early_years">Early Years / Starting out</a>
-          <a class='dropdown-item' href="?action=GTC">Getting Serious</a>
-          <a class="dropdown-item" href="?action=current">Current</a>
-          <a class="dropdown-item" href="https://www.linkedin.com/in/mcuddy1/">Linkedin</a>
-          <a class="dropdown-item" href="https://github.com/ravenusmc">Github</a>
+          <a class="dropdown-item font" href="?action=early_years">Early Years / Starting out</a>
+          <a class='dropdown-item font' href="?action=GTC">Getting Serious</a>
+          <a class="dropdown-item font" href="?action=current">Current</a>
+          <a class="dropdown-item font" href="https://www.linkedin.com/in/mcuddy1/">Linkedin</a>
+          <a class="dropdown-item font" href="https://github.com/ravenusmc">Github</a>
         </div>
       </li>
     </ul>
