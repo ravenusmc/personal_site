@@ -10,7 +10,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('../images/mt_fugi.jpeg');
+  background-image: url('../images/mt_fugi.jpg');
   height: 100vh;
   background-size: cover;
   background-position: center;

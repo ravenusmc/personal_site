@@ -1,20 +1,5 @@
 <?php
 
-  // $dsn = 'mysql:host=localhost;dbname=mikesPage';
-  // $username = 'root';
-  // $password = 'root';
-  //
-  // try {
-  //     $db = new PDO($dsn, $username, $password);
-  //     //echo 'connected';
-  //     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-  // } catch (PDOException $e) {
-  //     echo 'failed';
-  //     $error_message = $e->getMessage();
-  //     include('../errors/database_error.php');
-  //     exit();
-  // }
-
   //This file will connect to the MySQL database
   class Database {
     private static $dsn = 'mysql:host=localhost;dbname=mikesPage';
