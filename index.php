@@ -5,7 +5,7 @@
 <!-- Main portion of the web page -->
 <main role="main">
 
-  <div class='headDiv'>
+  <div class='headDiv font'>
     <h1>Mike Cuddy</h1>
     <h2>My Coding Journey</h2>
     <h1><a class='link' href='controller'>Enter</a></h1>
