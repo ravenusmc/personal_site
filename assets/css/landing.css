@@ -34,3 +34,20 @@ main {
 .link:hover {
   color: #329AEF;
 }
+
+/*************************
+Media queries
+*************************/
+@media only all and (max-width: 900px) {
+
+  .headDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 80%;
+    font-size: 40px;
+  }
+
+}

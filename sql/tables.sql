@@ -21,3 +21,18 @@ CREATE TABLE projects (
 
 INSERT INTO projects (title, githubURL, videoLink) VALUES
 ("video_games", "https://github.com/ravenusmc/video_games", "https://www.youtube.com/embed/bIpUajQqlSU");
+
+INSERT INTO projects (title, githubURL, videoLink) VALUES
+("U.S. Terror", "https://github.com/ravenusmc/US_terror", "https://www.youtube.com/watch?v=utJQZTrWIoY")
+("Police Shooting", "https://github.com/ravenusmc/police_shootings", "https://www.youtube.com/watch?v=Li4tHJ2Kjbs");
+
+SELECT * FROM `projects` WHERE id = 2 https://www.youtube.com/embed/utJQZTrWIoY
+
+UPDATE projects
+SET videoLink = "https://www.youtube.com/embed/Li4tHJ2Kjbs"
+WHERE id = 3;
+
+INSERT INTO projects (title, githubURL, videoLink) VALUES
+("Terror Flask", "https://github.com/ravenusmc/terror_flask", "https://www.youtube.com/embed/LhmisDsbPXY"),
+("Learn One", "https://github.com/ravenusmc/learn_one", "https://www.youtube.com/embed/iXR_q-gyJfg"),
+("World Info", "https://github.com/ravenusmc/world_info", "https://www.youtube.com/embed/IJjq8jpU2js");
