@@ -55,7 +55,7 @@
   <section id='secondSection'>
 
     <div>
-      <img class='marioImage' src="../assets/images/weather.jpg" alt="Weather Image">
+      <img class='weatherImage' src="../assets/images/weather.jpg" alt="Weather Image">
     </div>
 
     <div>

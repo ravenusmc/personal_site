@@ -83,16 +83,9 @@ Media Query Area
     justify-items: center;
   }
 
-  .marioImage {
+  .marioImage, .weatherImage, .sunImage, .codingImage   {
     height: 350px;
-  }
-
-  .sunImage {
-    height:250px;
-  }
-
-  .codingImage {
-    height: 300px;
+    width: 350px;
   }
 
 }

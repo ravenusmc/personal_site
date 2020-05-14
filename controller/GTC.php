@@ -13,7 +13,7 @@
 
     <div class='introDiv'>
       <h1 class='font'>Mike Cuddy</h1>
-      <h3 class='font'>GTC Courses and  Photoshop Page</h3>
+      <h3 class='center font'>GTC Courses and  Photoshop Page</h3>
     </div>
 
     <div class='paragraphDiv'>

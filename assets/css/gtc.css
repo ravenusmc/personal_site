@@ -125,6 +125,30 @@ Media Queries
 *************************/
 @media only all and (max-width: 900px) {
 
+  #top {
+    background-image: url("https://docs.google.com/uc?export=download&id=1EFf_YcT7TNpo9GzooZIISas13RL22yzk");
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #pic_area_one {
+    background-image: url("https://docs.google.com/uc?export=download&id=194gEC5eN5TtpXmHUsXciCKq-j16ZQQyT");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #pic_area_two {
+    background-image: url("https://docs.google.com/uc?export=download&id=1yAD9bBJH67jvvEZmLllxzgF2HbwaZJwx");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   .header-container {
     grid-template-columns: 1fr;
     min-height: 100%;
@@ -142,6 +166,5 @@ Media Queries
   .photoShopDiv {
     grid-template-columns: 1fr;
   }
-
 
 }

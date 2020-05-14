@@ -36,3 +36,48 @@ INSERT INTO projects (title, githubURL, videoLink) VALUES
 ("Terror Flask", "https://github.com/ravenusmc/terror_flask", "https://www.youtube.com/embed/LhmisDsbPXY"),
 ("Learn One", "https://github.com/ravenusmc/learn_one", "https://www.youtube.com/embed/iXR_q-gyJfg"),
 ("World Info", "https://github.com/ravenusmc/world_info", "https://www.youtube.com/embed/IJjq8jpU2js");
+
+
+INSERT INTO projects (title, githubURL, videoLink) VALUES
+("Space Adventure", "https://github.com/ravenusmc/space_adventure", "https://www.youtube.com/embed/d7-XMuwyPXk"),
+("Inventory", "https://github.com/ravenusmc/inventory", "https://www.youtube.com/embed/Z9piHJlSGtE"),
+("Titanic", "https://github.com/ravenusmc/titanic", "https://www.youtube.com/embed/Wp49tI6zCXc"),
+("War Deaths", "https://github.com/ravenusmc/war_deaths", "https://www.youtube.com/embed/J5ucQ1v2hxk"),
+("News App", "https://github.com/ravenusmc/news_app", "https://www.youtube.com/embed/3csvQETVKqA"),
+("Murder Study", "https://github.com/ravenusmc/murder_study", "https://www.youtube.com/embed/3prEmoyck0Y");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--
