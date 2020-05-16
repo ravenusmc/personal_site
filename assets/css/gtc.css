@@ -127,7 +127,6 @@ Media Queries
 
   #top {
     background-image: url('../../assets/images/road.jpg');
-    /* background-image: url("https://docs.google.com/uc?export=download&id=1EFf_YcT7TNpo9GzooZIISas13RL22yzk"); */
     min-height: 100%;
     background-size: cover;
     background-position: center;
@@ -136,7 +135,6 @@ Media Queries
 
   #pic_area_one {
     background-image: url('../../assets/images/bridge.jpg');
-    /* background-image: url("https://docs.google.com/uc?export=download&id=194gEC5eN5TtpXmHUsXciCKq-j16ZQQyT"); */
     height: 500px;
     background-size: cover;
     background-position: center;
@@ -145,7 +143,6 @@ Media Queries
 
   #pic_area_two {
     background-image: url('../../assets/images/mountain.jpg');
-    /* background-image: url("https://docs.google.com/uc?export=download&id=1yAD9bBJH67jvvEZmLllxzgF2HbwaZJwx"); */
     height: 500px;
     background-size: cover;
     background-position: center;

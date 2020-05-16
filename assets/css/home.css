@@ -24,3 +24,16 @@ main {
 .title {
   border-bottom: 2px solid white;
 }
+
+/*******************************
+Media Queries
+*******************************/
+@media only all and (max-width: 900px){
+
+  .stagesDiv {
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+}
