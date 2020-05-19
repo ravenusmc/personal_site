@@ -1,0 +1,902 @@
+.scripts-sprite {
+    font-size: 10px;
+}
+
+.scripts-sprite:before {
+    content:' ';
+    vertical-align:middle;
+    display: inline-block;
+    background-image: url("../images/sprite-images/scripts-sprite.svg?time=1516725275000");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.no-svg .scripts-sprite:before {
+    background-image: url("../images/sprite-images/scripts-sprite.png?time=1516725275000");
+}
+
+
+
+  .scripts-sprite.image-4images-gallery:before {
+      background-position: -0.2em -0.2em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-4images-gallery-small:before {
+      background-position: -0.2em -13.1em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-b2evolution:before {
+      background-position: -0.2em -17.5em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-b2evolution-small:before {
+      background-position: -0.2em -30.4em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-classifieds:before {
+      background-position: -0.2em -34.800000000000004em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-classifieds-small:before {
+      background-position: -0.2em -47.7em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-concrete-5:before {
+      background-position: -0.2em -52.1em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-concrete-5-small:before {
+      background-position: -0.2em -65em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-coppermine:before {
+      background-position: -0.2em -69.4em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-coppermine-small:before {
+      background-position: -0.2em -82.3em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-dokuwiki:before {
+      background-position: -0.2em -86.7em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-dokuwiki-small:before {
+      background-position: -0.2em -99.60000000000001em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-dolphin:before {
+      background-position: -0.2em -104em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-dolphin-small:before {
+      background-position: -0.2em -116.9em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-dotproject:before {
+      background-position: -0.2em -121.3em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-dotproject-small:before {
+      background-position: -0.2em -134.2em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-drupal:before {
+      background-position: -0.2em -138.6em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-drupal-small:before {
+      background-position: -0.2em -151.5em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-fuzzylime-cms:before {
+      background-position: -0.2em -155.89999999999998em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-fuzzylime-cms-small:before {
+      background-position: -0.2em -168.79999999999998em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-gallery3:before {
+      background-position: -0.2em -173.2em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-gallery3-small:before {
+      background-position: -0.2em -186.1em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-geeklog:before {
+      background-position: -0.2em -190.5em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-geeklog-small:before {
+      background-position: -0.2em -203.39999999999998em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-help-center-live:before {
+      background-position: -0.2em -207.79999999999998em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-help-center-live-small:before {
+      background-position: -0.2em -220.7em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-imagin:before {
+      background-position: -0.2em -225.1em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-imagin-small:before {
+      background-position: -0.2em -238em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-joomla:before {
+      background-position: -0.2em -242.39999999999998em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-joomla-small:before {
+      background-position: -0.2em -255.29999999999998em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-magento:before {
+      background-position: -0.2em -259.7em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-magento-small:before {
+      background-position: -0.2em -272.59999999999997em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-maian-events:before {
+      background-position: -0.2em -277em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-maian-events-small:before {
+      background-position: -0.2em -289.9em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-mambo:before {
+      background-position: -0.2em -294.3em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-mambo-small:before {
+      background-position: -0.2em -307.2em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-mjguest:before {
+      background-position: -0.2em -311.59999999999997em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-mjguest-small:before {
+      background-position: -0.2em -324.5em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-modx:before {
+      background-position: -0.2em -328.9em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-modx-small:before {
+      background-position: -0.2em -341.8em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-moodle:before {
+      background-position: -0.2em -346.2em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-moodle-small:before {
+      background-position: -0.2em -359.09999999999997em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-movable-type:before {
+      background-position: -0.2em -363.5em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-movable-type-small:before {
+      background-position: -0.2em -376.4em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-nucleus:before {
+      background-position: -0.2em -380.8em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-nucleus-small:before {
+      background-position: -0.2em -393.7em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-open-realty:before {
+      background-position: -0.2em -398.09999999999997em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-open-realty-small:before {
+      background-position: -0.2em -411em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-openads:before {
+      background-position: -0.2em -415.4em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-openads-small:before {
+      background-position: -0.2em -428.3em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-opencart:before {
+      background-position: -0.2em -432.7em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-opencart-small:before {
+      background-position: -0.2em -445.59999999999997em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-os-commerce:before {
+      background-position: -0.2em -450em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-os-commerce-small:before {
+      background-position: -0.2em -462.9em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-os-ticket:before {
+      background-position: -0.2em -467.3em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-os-ticket-small:before {
+      background-position: -0.2em -480.2em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-php-fusion:before {
+      background-position: -0.2em -484.59999999999997em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-php-fusion-small:before {
+      background-position: -0.2em -497.5em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-phpbb3:before {
+      background-position: -0.2em -501.9em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-phpbb3-small:before {
+      background-position: -0.2em -514.8000000000001em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-phpcoin:before {
+      background-position: -0.2em -519.2em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-phpcoin-small:before {
+      background-position: -0.2em -532.1em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-phpformgenerator:before {
+      background-position: -0.2em -536.5em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-phpformgenerator-small:before {
+      background-position: -0.2em -549.4000000000001em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-phplist:before {
+      background-position: -0.2em -553.8000000000001em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-phplist-small:before {
+      background-position: -0.2em -566.7em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-phprojekt:before {
+      background-position: -0.2em -571.1em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-phprojekt-small:before {
+      background-position: -0.2em -584em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-phptickets:before {
+      background-position: -0.2em -588.4000000000001em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-phptickets-small:before {
+      background-position: -0.2em -601.3000000000001em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-phpwebsite:before {
+      background-position: -0.2em -605.7em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-phpwebsite-small:before {
+      background-position: -0.2em -618.6em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-plogger:before {
+      background-position: -0.2em -623em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-plogger-small:before {
+      background-position: -0.2em -635.9000000000001em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-prestashop:before {
+      background-position: -0.2em -640.3000000000001em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-prestashop-small:before {
+      background-position: -0.2em -653.2em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-smf-2:before {
+      background-position: -0.2em -657.6em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-smf-2-small:before {
+      background-position: -0.2em -670.5em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-sugarcrm:before {
+      background-position: -0.2em -674.9000000000001em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-sugarcrm-small:before {
+      background-position: -0.2em -687.8000000000001em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-textpattern:before {
+      background-position: -0.2em -692.2em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-textpattern-small:before {
+      background-position: -0.2em -705.1em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-tikiwiki:before {
+      background-position: -0.2em -709.5em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-tikiwiki-small:before {
+      background-position: -0.2em -722.4000000000001em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-vtiger:before {
+      background-position: -0.2em -726.8000000000001em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-vtiger-small:before {
+      background-position: -0.2em -739.7em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-webcalendar:before {
+      background-position: -0.2em -744.1em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-webcalendar-small:before {
+      background-position: -0.2em -757em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-websitebaker:before {
+      background-position: -0.2em -761.4000000000001em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-websitebaker-small:before {
+      background-position: -0.2em -774.3000000000001em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-wordpress:before {
+      background-position: -0.2em -778.7em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-wordpress-small:before {
+      background-position: -0.2em -791.6em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-xoops:before {
+      background-position: -0.2em -796em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-xoops-small:before {
+      background-position: -0.2em -808.9000000000001em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-zazavi:before {
+      background-position: -0.2em -813.3000000000001em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-zazavi-small:before {
+      background-position: -0.2em -826.2em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+  .scripts-sprite.image-zen-cart:before {
+      background-position: -0.2em -830.6em;
+      width: 12.5em;
+      height: 12.5em;
+  }
+
+
+
+
+  .scripts-sprite.image-zen-cart-small:before {
+      background-position: -0.2em -843.5em;
+      width: 4em;
+      height: 4em;
+  }
+
+
+
+
+

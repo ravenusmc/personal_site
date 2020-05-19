@@ -20,7 +20,7 @@
   <link rel="stylesheet" type="text/css" href="../assets/css/generic.css">
 </head>
 <body>
-  
+
 <!-- Start of main area -->
 <main id='desktopMain' role="main">
 
@@ -36,7 +36,7 @@
   </div>
 
   <div class='stagesDivMobile'>
-    <button><a class='link font' href="?action=early_years">Early Years / Starting Out</a></button>
+    <button><a class='link font' href="?action=early_years">Early Years</a></button>
     <button><a class='link font' href="?action=GTC">Getting Serious</a></button>
     <button><a class='link font' href="?action=current">Current</a></button>
   </div>

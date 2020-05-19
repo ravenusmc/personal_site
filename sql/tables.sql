@@ -47,6 +47,16 @@ INSERT INTO projects (title, githubURL, videoLink) VALUES
 ("Murder Study", "https://github.com/ravenusmc/murder_study", "https://www.youtube.com/embed/3prEmoyck0Y");
 
 
+INSERT INTO projects (title, githubURL, videoLink) VALUES
+("UFO Study", "https://github.com/ravenusmc/ufo_study", "https://www.youtube.com/embed/vzkZq-EPM10"),
+("Movies", "https://github.com/ravenusmc/movies", "https://www.youtube.com/embed/H9fcp_4rL_w"),
+("Speech Rev", "https://github.com/ravenusmc/speech_rev", "https://www.youtube.com/embed/P1XnZkn5AJw"),
+("Book Project", "https://github.com/ravenusmc/book_project", "https://www.youtube.com/embed/B3G0cl_cxAk"),
+("Guns", "https://github.com/ravenusmc/guns", "https://www.youtube.com/embed/O5D8NKkDYGI"),
+("NASA API", "https://github.com/ravenusmc/user_misc", "https://www.youtube.com/embed/_DIxJRKApOg");
+
+
+
 
 
 
