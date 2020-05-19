@@ -1,6 +1,6 @@
 /* The CSS in this file will be used on the home page */
 
-main {
+#desktopMain {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,13 +12,21 @@ main {
   background-repeat: no-repeat;
 }
 
-.stagesDiv {
+#mobileMain {
+  display: none;
+}
+
+.stagesDivDesktop {
   text-transform: uppercase;
   text-align: center;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 15px;
   border-radius: 10px;
+}
+
+.stagesDivMobile {
+  display: none;
 }
 
 .title {
@@ -30,10 +38,33 @@ Media Queries
 *******************************/
 @media only all and (max-width: 900px){
 
-  .stagesDiv {
-    font-size: 20px;
-    margin-left: 5%;
-    margin-right: 5%;
+  .stagesDivDesktop {
+    display: none;
   }
-  
+
+  .stagesDivMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button {
+    margin-bottom: 10px;
+    border: 2px solid #329AEF;
+    background: #329AEF;
+    padding: 12px;
+    border-radius: 8px;
+  }
+
+  .link {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+  }
+
+  .link:hover {
+    color: #ff7f50 !important;
+  }
+
 }
