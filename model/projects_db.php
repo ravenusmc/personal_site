@@ -8,7 +8,8 @@
         //global $db;
         $db = Database::getDB();
 
-        $query = 'SELECT * from projects';
+        $query = 'SELECT * from projects
+                  ORDER BY id desc';
         $statement = $db->prepare($query);
         // $statement->bindValue(':title', $title);
         $statement->execute();

@@ -38,7 +38,7 @@
 <main id='mobileMain' role="main">
 
   <div class='headDiv font'>
-    <h1>A Coding Journey</h1>
+    <h1>My Coding Journey</h1>
     <button><a class='link' href='controller'>Enter</a></button>
   </div>
 
