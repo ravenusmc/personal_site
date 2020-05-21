@@ -55,6 +55,21 @@ INSERT INTO projects (title, githubURL, videoLink) VALUES
 ("Guns", "https://github.com/ravenusmc/guns", "https://www.youtube.com/embed/O5D8NKkDYGI"),
 ("NASA API", "https://github.com/ravenusmc/user_misc", "https://www.youtube.com/embed/_DIxJRKApOg");
 
+INSERT INTO projects (title, githubURL, videoLink) VALUES
+("Book Ratings", "https://github.com/ravenusmc/book_ratings", "https://www.youtube.com/embed/3qLRz1b3cbA"),
+("Market", "https://github.com/ravenusmc/market", "https://www.youtube.com/embed/osNbuxRxPkw"),
+("Politics", "https://github.com/ravenusmc/politics", "https://www.youtube.com/embed/5ZzLyHYPNb0"),
+("Compost Finder", "https://github.com/ravenusmc/compost_finder", "https://www.youtube.com/embed/KckndDFxPqU"),
+("Twitter Analysis", "https://github.com/ravenusmc/twitter_analysis", "https://www.youtube.com/embed/hqR9qLk4lC8"),
+("Hate Crimes", "https://github.com/ravenusmc/hate_crimes", "https://www.youtube.com/embed/gODK1bQn2lU");
+
+
+INSERT INTO projects (title, githubURL, videoLink) VALUES
+("Prison System", "https://github.com/ravenusmc/prison_system", "https://www.youtube.com/embed/kJjI0vdiXmU"),
+("Beer and Politics", "https://github.com/ravenusmc/Beer_Politics", "https://www.youtube.com/embed/ObUtuRdre7I"),
+("Inventory PHP", "https://github.com/ravenusmc/inventory_php", "https://www.youtube.com/embed/wTbDz-83W3U"),
+("Game Ratings", "https://github.com/ravenusmc/game_ratings", "https://www.youtube.com/embed/uudSTKVpxSk");
+
 
 
 
